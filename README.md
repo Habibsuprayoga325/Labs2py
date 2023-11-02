@@ -131,4 +131,4 @@ while i in range(jum):
 
 
 #hasil flowchart
-
+![gambar](aaa.png)
