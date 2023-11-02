@@ -34,5 +34,6 @@ if C > maks:
     maks = C
 
 print("bilangan terbesar adalah", maks)
+```
 
-! [Gambar](4.png)
+![Gambar](4.png)
