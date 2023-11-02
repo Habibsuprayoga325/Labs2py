@@ -129,3 +129,6 @@ while i in range(jum):
 ```
 ![gambar](8.png)
 
+
+#hasil flowchart
+
