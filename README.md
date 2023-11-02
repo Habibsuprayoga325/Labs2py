@@ -92,3 +92,21 @@ for i, data in enumerate(input_data):
     print(f"{i + 1}. {data}")
 ```
 ![gambar](6.png)
+
+
+## Tugas perulangan
+### Latihan 1
+
+Buat program dengan perulangan bertingkat (nested) for yang menghasilkan output sebagai berikut:
+```Python
+baris = 10
+kolom = baris
+
+for bar in range(baris):
+    for col in range(kolom):
+        tab = bar+col
+        print("{0:>5}".format(tab), end='')
+    print()
+```
+![gambar](7.png)
+
