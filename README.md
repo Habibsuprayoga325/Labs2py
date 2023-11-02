@@ -65,3 +65,30 @@ else:
 print("bilangan terbesar adalah", maks)
 ```
 ![gambar](5.png)
+
+
+### Latihan 2
+
+*Buat program untuk mengurutkan data berdasarkan input sejumlah
+ data (minimal 3 variable input atau lebih), kemudian tampilkan
+ hasilnya secara berurutan mulai dari data terkecil.*
+
+ ```Python
+#masukan inputan
+# Mengambil input dari user
+input_data = []
+minimal_data = 3
+
+while len(input_data) < minimal_data:
+    data = input(f"Masukkan data ke-{len(input_data) + 1} (angka): ")
+    input_data.append(int(data))
+
+# Mengurutkan data dari terkecil ke terbesar
+input_data.sort()
+
+# Menampilkan hasil
+print("Hasil pengurutan data:")
+for i, data in enumerate(input_data):
+    print(f"{i + 1}. {data}")
+```
+![gambar](6.png)
