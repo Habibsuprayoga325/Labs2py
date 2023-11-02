@@ -1,4 +1,4 @@
-#PERTEMUAN 7
+<img width="960" alt="image" src="https://github.com/Habibsuprayoga325/Labs2py/assets/147369468/87f007c0-ec34-4eb3-a568-16e29b5b6a7d">#PERTEMUAN 7
 
 ##PROFIL
 | Variable | Isi |
@@ -109,4 +109,23 @@ for bar in range(baris):
     print()
 ```
 ![gambar](7.png)
+
+
+##Latihan2
+
+Tampilkan n bilangan acak yang lebih kecil dari 0.5. nilai n diisi pada saat runtime anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya.
+```Python
+import random
+print("===========================================")
+print("= Bilangan acak yang lebih kecil dari 0,5 =")
+print("===========================================")
+
+jum = int( input("Masukan nilai: "))
+i = 0
+while i in range(jum):
+    i += 1
+    angkarandom = random.uniform(0,0.5)
+    print("Bilangan ke :", i, " : ", angkarandom)
+```
+![gambar](8.png)
 
