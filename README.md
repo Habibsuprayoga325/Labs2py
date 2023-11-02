@@ -16,3 +16,23 @@
 *Buat program sederhada dengan input 2 buah bilangan, kemudian
  tentukan bilangan terbesar dari kedua bilangan tersebut
  menggunakan statement if.*
+
+```Python
+#Masukan inputan
+A = int(input("masukan bilangan A"))
+B = int(input("masukan bilangan B"))
+C = int(input("masukan bilangan C"))
+
+if  A > B:
+    maks = A
+
+else:
+    maks = B
+
+
+if C > maks:
+    maks = C
+
+print("bilangan terbesar adalah", maks)
+
+! [Gambar](4.png)
