@@ -1,4 +1,4 @@
-<img width="960" alt="image" src="https://github.com/Habibsuprayoga325/Labs2py/assets/147369468/87f007c0-ec34-4eb3-a568-16e29b5b6a7d">#PERTEMUAN 7
+#PERTEMUAN 7
 
 ##PROFIL
 | Variable | Isi |
